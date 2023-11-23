@@ -1,6 +1,6 @@
 baseURL       = "https://stupendous-sfogliatella-92085b.netlify.app"
 languageCode  = "en-us"
-title         = "Opendream Site TEST"
+title         = "Opendream | Technology for Sustainable Social Development"
 theme         = "roxo-hugo"
 summarylength = 25
 
@@ -16,7 +16,7 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Projects"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
@@ -24,14 +24,14 @@ summarylength = 25
     url     = "blog"
     weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
+    name    = "Contact Us"
     url     = "contact"
     weight  = 5
 
 # Site Params
 [params]
   logo = "images/od_logo.svg"
-  logo_footer = "images/logo-footer.png"
+  logo_footer = "images/od_logo_white.svg"
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"
   custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
@@ -71,9 +71,9 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    heading               = "Sustainable Social Impact with Technology"
+    tagline               = "WE CREATE"
+    primary_button        = "View Projects"
     primary_button_url    = "portfolio"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
@@ -92,7 +92,7 @@ summarylength = 25
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    title               = "LET’S DEVELOP TOGETHER"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
@@ -103,9 +103,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "Opendream Co., Ltd. (Head Office)<br />349 SJ Infinite One Business Complex,<br />10th Unit 1004-1005 Vibhavadi-Rangsit Road,<br />Chompol Chatuchak Bangkok 10900, Thailand"
+      phone   = "Phone: +66.90.559.8288"
+      email   = "Email: info [a] opendream.co.th"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
@@ -138,7 +138,7 @@ summarylength = 25
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "We create:"
+        description = "Sustainable Social Impact<br />with Technology"
       [params.footer.back_to_top]
         description = "I want to <br> visit again"
