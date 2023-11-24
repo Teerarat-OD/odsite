@@ -1,32 +1,98 @@
 baseURL       = "https://stupendous-sfogliatella-92085b.netlify.app"
 languageCode  = "en-us"
-title         = "Opendream | Technology for Sustainable Social Development"
 theme         = "roxo-hugo"
 summarylength = 25
 
-# Site Menus
-[menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "About"
-    url     = "about"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Projects"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 4
-  [[menu.nav]]
-    name    = "Contact Us"
-    url     = "contact"
-    weight  = 5
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.th]
+    contentDir = 'content/th'
+    disabled = false
+    languageCode = 'th-TH'
+    languageName = 'Thai'
+    title = 'โอเพ่นดรีม'
+    weight = 2
+        # Site Menus
+    [languages.th.menu]
+      # Navbar Menus
+      [[languages.th.menu.nav]]
+        name    = "หน้าหลัก"
+        url     = "th"
+        weight  = 1
+      [[languages.th.menu.nav]]
+        name    = "เกี่ยวกับรา"
+        url     = "th/about"
+        weight  = 2
+      [[languages.th.menu.nav]]
+        name    = "Projects"
+        url     = "th/portfolio"
+        weight  = 3
+      [[languages.th.menu.nav]]
+        name    = "Blog"
+        url     = "th/blog"
+        weight  = 4
+      [[languages.th.menu.nav]]
+        name    = "Contact Us"
+        url     = "th/contact"
+        weight  = 5
+
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Opendream'
+    weight = 1
+    # Site Menus
+    [languages.en.menu]
+      # Navbar Menus
+      [[languages.en.menu.nav]]
+        name    = "Home"
+        url     = "en"
+        weight  = 1
+      [[languages.en.menu.nav]]
+        name    = "About"
+        url     = "en/about"
+        weight  = 2
+      [[languages.en.menu.nav]]
+        name    = "Projects"
+        url     = "en/portfolio"
+        weight  = 3
+      [[languages.en.menu.nav]]
+        name    = "Blog"
+        url     = "en/blog"
+        weight  = 4
+      [[languages.en.menu.nav]]
+        name    = "Contact Us"
+        url     = "en/contact"
+        weight  = 5
+
+
+    # # Site Menus
+    # [menu]
+    #   # Navbar Menus
+    #   [[menu.nav]]
+    #     name    = "Home"
+    #     url     = ""
+    #     weight  = 1
+    #   [[menu.nav]]
+    #     name    = "About"
+    #     url     = "about"
+    #     weight  = 2
+    #   [[menu.nav]]
+    #     name    = "Projects"
+    #     url     = "portfolio"
+    #     weight  = 3
+    #   [[menu.nav]]
+    #     name    = "Blog"
+    #     url     = "blog"
+    #     weight  = 4
+    #   [[menu.nav]]
+    #     name    = "Contact Us"
+    #     url     = "contact"
+    #     weight  = 5
+
 
 # Site Params
 [params]
